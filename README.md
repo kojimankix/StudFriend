@@ -1,2 +1,0 @@
-# StudFriend
-Чат-бот
