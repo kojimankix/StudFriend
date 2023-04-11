@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    padding: 0;
+   
+    margin: 0;
+}
+a::before{
+    color: #3C0881;
+}
+a:after{
+    color: #3C0881;
+}
+a:hover{
+    color: #3C0881;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+    height: 10vh;
+    align-items: center;
+}
+.header_content{
+    /* background: green; */
+    display: flex;
+    justify-content: space-between;
+    width: 94vw;
+    height: 6.4vh;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.header_menu{
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+
+    /*Шрифт*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.1vh;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #3C0881;
+}
+.header_menu_item{
+    padding-left: 1.8vw;
+}
+#last_menu_item{
+    padding: 0;
+}
+.header_logo{
+    height: 6.4vh;
+    width: 3.2vw;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    background: url(img/Backgrounds/topbg.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    height: 90vh;
+}
+.top_content{
+    display: flex;
+    /* background: green; */
+    justify-content: center;
+    width: 94vw;
+    align-items: center;
+}
+.top_text{
+    position: absolute;
+    /* background: purple; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 126.02%;
+    /* or 50px */
+
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+    width: 36vw;
+    color: #000000;
+    margin-right: 30vw;
+}
+.top_text b{
+    font-weight: 700;
+    color: #3C0881;
+}
+.top_img{
+    /* background: pink; */
+    height: 91.8%;
+    margin-left: 35vw;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    background: url(img/Backgrounds/descpbg.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    height: 100vh;
+}
+.desc_content{
+    display: flex;
+    /* background: green; */
+    justify-content: center;
+    width: 66vw;
+    align-items: center;
+}
+.desc_text{
+    display:flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.5vh;
+    line-height: 106.5%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    width: 40vw;
+    padding-right: 6vw;
+}
+.desc_text b{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6vh;
+    text-transform: uppercase;
+    color: #3C0881;
+    line-height: 126.02%;
+    /* or 81px */
+
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+}
+.desc_text p{
+    padding-bottom: 2vh;
+}
+.num_img{
+    height: 8%;
+    width: 8%;
+    padding-bottom: 2vh;
+}
+.phone_img{
+    height: 86%;
+}
+.qrcode{
+    display: flex;
+    justify-content: center;
+    background: url(img/Backgrounds/qrbg.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    height: 100vh;
+}
+.qrcode_content{
+    display: flex;
+    flex-direction: column;
+    /* background: green; */
+    justify-content: center;
+    width: 94vw;
+    align-items: center;
+}
+.qrcode_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 43px */
+
+    letter-spacing: 0.02em;
+    color: #3C0881;
+    padding-bottom: 8vh;
+    width: 66vw;
+}
+.qrcode_text b{
+    font-weight: 500;
+    font-size: 6vh;
+    line-height: 126.02%;
+    /* identical to box height, or 81px */
+
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+}
+#start_b{
+    padding-bottom: 4vh;
+}
+#qr_main{
+    margin-left: 1vw;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background: url(img/Backgrounds/contactsbg.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    height: 50vh;
+}
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    /* background: green; */
+    justify-content: center;
+    width: 94vw;
+    align-items: center;
+}
+.contact{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6vh;
+    line-height: 126.02%;
+    /* identical to box height, or 81px */
+    
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+    color: #3C0881;
+    padding-bottom: 3vh;
+}
+.tg{
+    width: 90%;
+    height: 90%;
+}
+.vk{
+    width: 90%;
+    height: 90%;
+}
+.whatsapp{
+    width: 90%;
+    height: 90%;
+}
+.mail{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 43px */
+    
+    letter-spacing: 0.08em;
+    color: #3C0881;
+    padding-bottom: 1vh;
+}
+.web_contacts{
+    width: 40vw;
+    height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+.sogl{
+    font-style: normal;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 43px */
+    
+    letter-spacing: 0.08em;
+    color: #3C0881;
+    text-decoration: underline;
+    font-weight: 300;
+    padding-bottom: 2vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.sogl button::after{
+    font-style: normal;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 43px */
+    
+    letter-spacing: 0.08em;
+    color: #3C0881;
+    text-decoration: underline;
+    font-weight: 300;
+    padding-bottom: 2vh;
+    background: none;
+    border: none;
+}
+.date2023{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 43px */
+    
+    letter-spacing: 0.08em;
+    color: #3C0881;
+}
+.tg_a{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.qrcode_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qrcode_img{
+    width: 55vw;
+    height: 55vh;
+}
+.mails{
+    display: flex;
+    justify-content: center;
+    background: url(img/Backgrounds/svyazbg.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    height: 100vh;
+}
+.mails_content{
+    display: flex;
+    flex-direction: column;
+    /* background: green; */
+    justify-content: center;
+    width: 94vw;
+    align-items: center;
+}
+.mails_main{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 4vh;
+    width: 66vw;
+}
+.mails_main b{
+    font-weight: 500;
+    font-size: 6vh;
+    line-height: 126.02%;
+    /* identical to box height, or 81px */
+
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+    color: #3C0881;
+
+}
+.form_left{
+    display: flex;
+    flex-direction: column;
+}
+.form_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6.5vw;
+}
+.forms{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 43px */
+    
+    letter-spacing: 0.02em;
+    color: #3C0881;
+}
+.forms label{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.forms input{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 1vw;
+    height: 7.5vh;
+    width: 30vw;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 42px */
+    letter-spacing: 0.02em;
+    padding: 1vw;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.forms input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #B19CCD;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 42px */
+    letter-spacing: 0.02em;
+}
+.form_right textarea{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 1vw;
+    height: 39vh;
+    width: 30vw;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 42px */
+    letter-spacing: 0.02em;
+    padding: 1vw;
+    box-sizing: border-box;
+    outline: none;
+}
+.form_right textarea::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #B19CCD;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 106.5%;
+    /* or 42px */
+    letter-spacing: 0.02em;
+}
+.SendBtn{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    border-radius: 1.5vw;
+
+    outline: none;
+    border: none;
+    background: #3C0881;
+    color: white;
+    height: 9.5vh;
+    width: 15vw;
+    cursor: pointer;
+}
+.forms{
+    padding-bottom: 6vh;
+    width: 66vw;
+}
+.formsbtn{
+    display:flex;
+    justify-content: center;
+}
+#myPopup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84vw;
+    height: 84vh;
+    border-radius: 2vw;
+    background: #3C0881;
+    position: fixed;/*фиксированное позиционирование*/
+    top: -100%;/*прячем окно за пределы видимости*/
+    left: 50%;/*позиция окна слева*/
+    transform: translate(-50%,-50%);
+    z-index: 1000;/*на верхний слой*/
+    transition: 0.5s;
+    visibility: hidden;/*скрываем окно*/
+}
+#myPopup_content{
+    background: white;
+    border-radius: 1vw 0 0 1vw;
+    width: 80vw;
+    height: 76vh;
+    overflow-y: scroll;
+}
+#myPopup.show{
+    visibility: visible;/*показываем окно*/
+    top: 50%;/*окно выдвигается сверху*/
+}
+.myPopup_text{
+    padding: 2vw;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vh;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
+.myPopup_text b{
+    font-weight: 500;
+    font-size: 5vh;
+}
+.BigMain{
+    padding-bottom: 6vh;
+    padding-top: 6vh;
+}
+.Main{
+    padding-bottom: 4vh;
+    padding-left: 2vw;
+}
+.close{
+    position: absolute;
+    cursor: pointer;
+}
+.SubmitBtn{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    border-radius: 1.5vw;
+
+    outline: none;
+    border: none;
+    background: #3C0881;
+    color: white;
+    height: 9.5vh;
+    width: 20vw;
+    cursor: pointer;
+}
+.SBtn{
+    display:flex;
+    justify-content: center;
+}
+.stop{
+    overflow: hidden;
+}
