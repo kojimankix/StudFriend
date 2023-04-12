@@ -1,5 +1,0 @@
-host = "127.0.0.1"
-user = "postgres"
-password = "йцукен"
-db_name = "bot_users"
-port = "5432"
